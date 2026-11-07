@@ -32,3 +32,13 @@ footer { margin-top: 48px; font-size: 14px; color: var(--muted); }
 .idcard-title img { width: 48px; height: 48px; }
 .idcard-title strong { display: block; font-size: 18px; }
 @media (max-width: 480px) { .idcard { grid-template-columns: 1fr; gap: 0; } .idcard dd { margin-bottom: 8px; } }
+.scale { display: flex; height: 34px; border-radius: 10px; overflow: hidden; margin: 18px 0 6px;
+  background: linear-gradient(90deg, #10B981 0%, #84CC16 20%, #F59E0B 40%, #F97316 60%, #EF4444 80%, #B91C3C 100%); }
+.scale span { display: grid; place-items: center; font-weight: 800; color: #0F172A; border-right: 2px solid var(--surface); }
+.scale span:last-child { border-right: 0; color: #FFFFFF; }
+.band-a { flex: 16; } .band-b { flex: 15; } .band-c { flex: 20; } .band-d { flex: 20; } .band-e { flex: 30; }
+.scale-legend { display: flex; text-align: center; font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+.grades { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; margin: 0; font-size: 15px; }
+.grades dt { font-weight: 800; }
+.grades dd { margin: 0; color: var(--muted); }
+.card h2 { margin-top: 4px; }

@@ -19,10 +19,28 @@
 
 <h1><span class="wordmark">VYLIA</span>Score, reduce and filter what your apps know about you</h1>
 <p>VYLIA gives every Android app a score from 0 to 100 based on the permissions it asks for and the trackers it ships,
-explains why, and helps you take back control. Just as you scan a product to see what it contains, VYLIA scans your apps
-to see what they do with your data. Everything is computed on your phone.</p>
+explains why, and helps you take back control. Everything is computed on your phone.</p>
 <p><a class="button" href="https://github.com/GuillaumeCHR/VYLIA/releases/latest">Download the APK</a>
 <span class="muted">Android 8.0 and later · English and French</span></p>
+
+<section class="card" aria-labelledby="pitch-en">
+  <h2 id="pitch-en">The Yuka of privacy</h2>
+  <p>Just as you scan a product at the supermarket to see what it contains, VYLIA scans your apps to see what they do with
+  your data. Each one gets a <strong>score from 0 to 100</strong> and a <strong>grade from A to E</strong>, readable at a
+  glance. It starts at 100 and loses points for its permissions (50 at most), judged by what the app is for, and for its
+  trackers (60 at most). Every point taken off is explained, without jargon.</p>
+  <div class="scale" role="img" aria-label="Grade scale: A from 85 to 100, B from 70 to 84, C from 50 to 69, D from 30 to 49, E from 0 to 29">
+    <span class="band-a">A</span><span class="band-b">B</span><span class="band-c">C</span><span class="band-d">D</span><span class="band-e">E</span>
+  </div>
+  <div class="scale-legend" aria-hidden="true"><span class="band-a">85–100</span><span class="band-b">70–84</span><span class="band-c">50–69</span><span class="band-d">30–49</span><span class="band-e">0–29</span></div>
+  <dl class="grades">
+    <dt>A</dt><dd>Few or no sensitive permissions, and they serve the app's purpose; no trackers, or almost none.</dd>
+    <dt>B</dt><dd>A few tolerated permissions or a small number of trackers, often analytics.</dd>
+    <dt>C</dt><dd>Permissions unrelated to the app's purpose, or several trackers including advertising ones. Keep an eye on it.</dd>
+    <dt>D</dt><dd>Many advertising or profiling trackers, often with intrusive permissions. Look for an alternative.</dd>
+    <dt>E</dt><dd>Massive data collection. Replace it if you can.</dd>
+  </dl>
+</section>
 
 <section class="card" aria-labelledby="idcard-en">
   <div class="idcard-title"><img src="assets/logo.svg" alt="" width="48" height="48">
@@ -84,7 +102,7 @@ asks you to allow installs from that source. SHA-256 fingerprint of the signing 
 
 <footer>VYLIA · Yogi Studio · <a href="mailto:yogistudiofr@gmail.com">yogistudiofr@gmail.com</a><br>
 Trackers: <a href="https://exodus-privacy.eu.org/">Exodus Privacy</a> (ODbL). Stalkerware: <a href="https://echap.eu.org/">Echap</a> (CC BY 4.0).
-VYLIA is an independent app, not affiliated with or endorsed by Exodus Privacy or Echap.
+VYLIA is an independent app, not affiliated with or endorsed by Exodus Privacy, Echap or Yuka. Yuka is a trademark of its owners.
 Name typeface: Unbounded (<a href="assets/unbounded-OFL.txt">SIL OFL 1.1</a>).</footer>
 </main>
 </body>
