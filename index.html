@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>VYLIA: privacy score &amp; manager</title>
+<meta name="description" content="VYLIA scores your Android apps by their permissions and trackers, helps you clean up and filters ad networks. 100% on your phone, free software.">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+  <a class="logo" href="./"><img src="assets/logo.svg" alt="" width="36" height="36"><span class="wordmark">VYLIA</span></a>
+  <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="fr/" hreflang="fr" lang="fr">Français</a></nav>
+</header>
+
+<h1><span class="wordmark">VYLIA</span>Score, reduce and filter what your apps know about you</h1>
+<p>VYLIA gives every Android app a score from 0 to 100 based on the permissions it asks for and the trackers it ships,
+explains why, and helps you take back control. Just as you scan a product to see what it contains, VYLIA scans your apps
+to see what they do with your data. Everything is computed on your phone.</p>
+<p><a class="button" href="https://github.com/GuillaumeCHR/VYLIA/releases/latest">Download the APK</a>
+<span class="muted">Android 8.0 and later · English and French</span></p>
+
+<section class="card" aria-labelledby="idcard-en">
+  <div class="idcard-title"><img src="assets/logo.svg" alt="" width="48" height="48">
+    <div><strong id="idcard-en">Identity card</strong><span class="muted">VYLIA: privacy score &amp; manager</span></div></div>
+  <dl class="idcard">
+    <dt>Version</dt><dd>0.9.0 (November 2026)</dd>
+    <dt>System</dt><dd>Android 8.0 and later</dd>
+    <dt>Languages</dt><dd>English, French</dd>
+    <dt>Price</dt><dd>free, no ads, no in-app purchases</dd>
+    <dt>Account</dt><dd>none</dd>
+    <dt>Data collected</dt><dd>none</dd>
+    <dt>Trackers</dt><dd>none</dd>
+    <dt>Licence</dt><dd>free software, GNU GPL v3</dd>
+    <dt>Package</dt><dd><code>com.vylia.privacy</code></dd>
+    <dt>Size</dt><dd>4.4 MB</dd>
+    <dt>Publisher</dt><dd>Yogi Studio, France</dd>
+  </dl>
+</section>
+
+<div class="card">
+  <strong>No ads, no trackers, no data collected.</strong> Your apps are analysed on your phone and nowhere else.
+  Free software under the GNU GPL v3: <a href="https://github.com/GuillaumeCHR/VYLIA">source code</a>.
+</div>
+
+<h2>Five screens, from findings to action</h2>
+<ol class="steps">
+  <li><strong>Scan</strong>: each app's score and its grade from A to E. Permissions are judged by what the app is for:
+    GPS costs nothing to a navigation app, it costs a lot to a game. Trackers are looked for in the app's code with the
+    public Exodus Privacy database.</li>
+  <li><strong>Analyze</strong>: risk areas, the most widespread trackers, your score over time and an alert if your
+    exposure goes up.</li>
+  <li><strong>Manage</strong>: permissions to revoke, apps you no longer open, more respectful alternatives sorted by
+    category.</li>
+  <li><strong>Filter</strong>: the VYLIA shield blocks ad networks and trackers across the whole device, including in the
+    apps you keep. Or switch to a service's web version, installed like an app: the app and its trackers go away.</li>
+  <li><strong>Celebrate</strong>: your progress, badges, and an image to share that never shows an app's name.</li>
+</ol>
+
+<div class="shots">
+  <figure><img src="screenshots/aide-fonctionnement.png" width="540" height="1119" alt="How VYLIA works: your exposure surface, then Identify, Reduce, Filter (French interface)"><figcaption>How it works</figcaption></figure>
+  <figure><img src="screenshots/filtrer.png" width="540" height="1119" alt="Filter: the VYLIA shield and private DNS (French interface)"><figcaption>Filter</figcaption></figure>
+  <figure><img src="screenshots/alternatives.png" width="540" height="1119" alt="Alternatives by category, with their Google Play rating (French interface)"><figcaption>Alternatives</figcaption></figure>
+  <figure><img src="screenshots/celebrer.png" width="540" height="1119" alt="Celebrate and share: score, points and badges (French interface)"><figcaption>Celebrate</figcaption></figure>
+</div>
+<p class="muted">Screenshots of the French interface.</p>
+
+<h2>Spot what hides</h2>
+<p>VYLIA also flags known stalkerware, using the public database of the French non-profit
+<a href="https://echap.eu.org/">Echap</a>, and spying capabilities: a keyboard or accessibility service able to read
+what you type, a hidden icon with sensitive access, screen reading. VYLIA describes what an app can do, not what it
+actually does.</p>
+
+<h2>Install</h2>
+<p>Download the <code>vylia-X.Y.Z.apk</code> file from the
+<a href="https://github.com/GuillaumeCHR/VYLIA/releases/latest">latest release</a> and open it on your phone; Android
+asks you to allow installs from that source. SHA-256 fingerprint of the signing certificate:</p>
+<p><code>7f62c73f7ba255eb7de02e40beb22640fd8e9c6f22375d3663d70f6271516c89</code></p>
+<p>A question, an idea: <a href="mailto:yogistudiofr@gmail.com">yogistudiofr@gmail.com</a>.</p>
+
+<footer>VYLIA · Yogi Studio · <a href="mailto:yogistudiofr@gmail.com">yogistudiofr@gmail.com</a><br>
+Trackers: <a href="https://exodus-privacy.eu.org/">Exodus Privacy</a> (ODbL). Stalkerware: <a href="https://echap.eu.org/">Echap</a> (CC BY 4.0).
+VYLIA is an independent app, not affiliated with or endorsed by Exodus Privacy or Echap.
+Name typeface: Unbounded (<a href="assets/unbounded-OFL.txt">SIL OFL 1.1</a>).</footer>
+</main>
+</body>
+</html>

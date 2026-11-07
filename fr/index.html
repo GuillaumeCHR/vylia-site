@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>VYLIA : privacy score &amp; manager</title>
+<meta name="description" content="VYLIA note vos applications Android selon leurs permissions et leurs traqueurs, vous aide à faire le ménage et filtre les régies publicitaires. 100 % sur le téléphone, logiciel libre.">
+<link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<header>
+  <a class="logo" href="./"><img src="../assets/logo.svg" alt="" width="36" height="36"><span class="wordmark">VYLIA</span></a>
+  <nav><a href="confidentialite.html">Confidentialité</a><a href="conditions.html">Conditions</a><a href="../" hreflang="en" lang="en">English</a></nav>
+</header>
+
+<h1><span class="wordmark">VYLIA</span>Notez, réduisez et filtrez ce que vos applications savent de vous</h1>
+<p>VYLIA donne à chaque application Android un score de 0 à 100 selon les permissions qu'elle demande et les traqueurs
+qu'elle embarque, explique pourquoi, et vous aide à reprendre la main. Comme on scanne un produit pour savoir ce qu'il
+contient, VYLIA scanne vos applications pour savoir ce qu'elles font de vos données. Tout est calculé sur votre téléphone.</p>
+<p><a class="button" href="https://github.com/GuillaumeCHR/VYLIA/releases/latest">Télécharger l'APK</a>
+<span class="muted">Android 8.0 et plus · français et anglais</span></p>
+
+<section class="card" aria-labelledby="idcard-fr">
+  <div class="idcard-title"><img src="../assets/logo.svg" alt="" width="48" height="48">
+    <div><strong id="idcard-fr">Carte d'identité</strong><span class="muted">VYLIA : privacy score &amp; manager</span></div></div>
+  <dl class="idcard">
+    <dt>Version</dt><dd>0.9.0 (novembre 2026)</dd>
+    <dt>Système</dt><dd>Android 8.0 et plus</dd>
+    <dt>Langues</dt><dd>français, anglais</dd>
+    <dt>Prix</dt><dd>gratuit, sans publicité ni achat intégré</dd>
+    <dt>Compte</dt><dd>aucun</dd>
+    <dt>Données collectées</dt><dd>aucune</dd>
+    <dt>Traqueurs</dt><dd>aucun</dd>
+    <dt>Licence</dt><dd>logiciel libre, GNU GPL v3</dd>
+    <dt>Identifiant</dt><dd><code>com.vylia.privacy</code></dd>
+    <dt>Taille</dt><dd>4,4 Mo</dd>
+    <dt>Éditeur</dt><dd>Yogi Studio, France</dd>
+  </dl>
+</section>
+
+<div class="card">
+  <strong>Ni publicité, ni traqueur, ni donnée collectée.</strong> Vos applications sont analysées sur votre téléphone,
+  et nulle part ailleurs. Logiciel libre sous GNU GPL v3 :
+  <a href="https://github.com/GuillaumeCHR/VYLIA">code source</a>.
+</div>
+
+<h2>Cinq écrans, du constat à l'action</h2>
+<ol class="steps">
+  <li><strong>Scanner</strong> : le score de chaque app et sa note de A à E. Les permissions sont jugées selon la
+    finalité de l'app : le GPS ne coûte rien à un GPS, il coûte cher à un jeu. Les traqueurs sont cherchés dans le code
+    de l'app avec la base publique d'Exodus Privacy.</li>
+  <li><strong>Analyser</strong> : les zones de risque, les traqueurs les plus répandus, la courbe de votre score dans le
+    temps et une alerte si votre exposition augmente.</li>
+  <li><strong>Gérer</strong> : les permissions à retirer, les apps que vous n'ouvrez plus, des alternatives plus
+    respectueuses, rangées par catégorie.</li>
+  <li><strong>Filtrer</strong> : le bouclier VYLIA bloque les régies publicitaires et les traqueurs sur tout l'appareil,
+    y compris dans les apps que vous gardez. Ou passez à la version web d'un service, installée comme une app : l'app et
+    ses traqueurs disparaissent.</li>
+  <li><strong>Célébrer</strong> : vos progrès, des badges, et une image à partager qui ne montre jamais le nom d'une app.</li>
+</ol>
+
+<div class="shots">
+  <figure><img src="../screenshots/aide-fonctionnement.png" width="540" height="1119" alt="Comment fonctionne VYLIA : votre surface d'exposition, puis Identifier, Réduire, Filtrer"><figcaption>Comment ça marche</figcaption></figure>
+  <figure><img src="../screenshots/filtrer.png" width="540" height="1119" alt="Filtrer : le bouclier VYLIA et le DNS privé"><figcaption>Filtrer</figcaption></figure>
+  <figure><img src="../screenshots/alternatives.png" width="540" height="1119" alt="Alternatives par catégorie, avec leur note Google Play"><figcaption>Alternatives</figcaption></figure>
+  <figure><img src="../screenshots/celebrer.png" width="540" height="1119" alt="Célébrer et partager : score, points et badges"><figcaption>Célébrer</figcaption></figure>
+</div>
+
+<h2>Repérer ce qui se cache</h2>
+<p>VYLIA signale aussi les stalkerwares connus, grâce à la base publique de l'association
+<a href="https://echap.eu.org/">Echap</a>, et les capacités d'espionnage : clavier ou service d'accessibilité capable
+de lire ce que vous tapez, icône cachée avec des accès sensibles, lecture de l'écran. VYLIA décrit ce qu'une app peut
+faire, pas ce qu'elle fait réellement.</p>
+
+<h2>Installer</h2>
+<p>Téléchargez le fichier <code>vylia-X.Y.Z.apk</code> de la
+<a href="https://github.com/GuillaumeCHR/VYLIA/releases/latest">dernière version</a> et ouvrez-le sur le téléphone ;
+Android vous demande d'autoriser l'installation depuis cette source. Empreinte SHA-256 du certificat de signature :</p>
+<p><code>7f62c73f7ba255eb7de02e40beb22640fd8e9c6f22375d3663d70f6271516c89</code></p>
+<p>Une question, une idée : <a href="mailto:yogistudiofr@gmail.com">yogistudiofr@gmail.com</a>.</p>
+
+<footer>VYLIA · Yogi Studio · <a href="mailto:yogistudiofr@gmail.com">yogistudiofr@gmail.com</a><br>
+Traqueurs : <a href="https://exodus-privacy.eu.org/">Exodus Privacy</a> (ODbL). Stalkerwares : <a href="https://echap.eu.org/">Echap</a> (CC BY 4.0).
+VYLIA est une application indépendante, ni affiliée ni approuvée par Exodus Privacy ou Echap.
+Police du nom : Unbounded (<a href="../assets/unbounded-OFL.txt">SIL OFL 1.1</a>).</footer>
+</main>
+</body>
+</html>
