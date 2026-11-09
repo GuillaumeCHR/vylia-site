@@ -18,12 +18,12 @@
 
 <h1>Privacy policy</h1>
 <p class="muted">Applies to the Android app VYLIA: privacy score &amp; manager (<code>com.vylia.privacy</code>),
-published by Yogi Studio. Last updated: 7 November 2026.</p>
+published by Yogi Studio. Last updated: 9 November 2026.</p>
 
 <div class="card">
   <strong>In short:</strong> VYLIA has no account, no trackers and no analytics. Yogi Studio collects no data
   about you: your apps are analysed on your phone and the results stay there. The Internet is only used to download
-  public databases, when you ask for it.
+  public databases: when you ask for it, or before the automatic scan if you turned it on.
 </div>
 
 <h2>1. Controller</h2>
@@ -55,11 +55,16 @@ for the tracker signatures of the public Exodus Privacy database, the known stal
 the non-profit Echap and the spyware in MVT's public indicators. None of this analysis leaves the phone.</p>
 
 <h2>5. Internet connections</h2>
-<p>The app only connects to the Internet when you ask for an update, to download public files as they are:</p>
+<p>The app only connects to the Internet to download public files as they are: when you ask for an update, or,
+if you turned on the automatic scan, before that scan, at most once a week (only on Wi-Fi if you chose that option).
+The files are:</p>
 <ul>
   <li>the Exodus Privacy tracker database (<code>reports.exodus-privacy.eu.org</code>);</li>
-  <li>Echap's stalkerware database, MVT's spyware indicators and VYLIA's list of private DNS providers, hosted on
-      GitHub (<code>raw.githubusercontent.com</code>).</li>
+  <li>Echap's stalkerware database, MVT's spyware indicators, AdGuard's lists of trackers, companies and disguised
+      trackers, and VYLIA's own files (scoring rules, alternatives, web versions, private DNS providers, help
+      resources), hosted on GitHub (<code>raw.githubusercontent.com</code>);</li>
+  <li>the shield's blocklists: EasyList and EasyPrivacy (<code>easylist.to</code>) and AdGuard's lists
+      (<code>filters.adtidy.org</code>, <code>adguardteam.github.io</code>).</li>
 </ul>
 <p>These requests send nothing about your apps. Like any connection, they reveal your phone's IP address to the site
 hosting the file. The "See on Google Play", "See on F-Droid" or "Open the site" buttons open the store or the browser,
