@@ -9,7 +9,7 @@
   var cat = document.getElementById("cat");
   var count = document.getElementById("count");
   var chips = Array.prototype.slice.call(document.querySelectorAll(".chip"));
-  var collator = new Intl.Collator("fr", { sensitivity: "base" });
+  var collator = new Intl.Collator(document.documentElement.lang || "fr", { sensitivity: "base" });
 
   function pressed(kind) {
     return chips.filter(function (c) { return c.dataset.filter === kind && c.getAttribute("aria-pressed") === "true"; })
@@ -29,7 +29,7 @@
       r.hidden = !ok;
       if (ok) shown++;
     });
-    count.textContent = shown + " app" + (shown > 1 ? "s" : "") + " affichée" + (shown > 1 ? "s" : "") + " sur " + rows.length;
+    count.textContent = (count.dataset.tpl || "{n} / {total}").replace("{n}", shown).replace("{total}", rows.length);
   }
 
   var headers = Array.prototype.slice.call(table.tHead.rows[0].cells);
